@@ -1,0 +1,119 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	display:block;
+	padding:0px;
+	}
+#main{
+	padding-top: 20px;
+	margin-top:77px;
+	clear:both;
+	float:left;
+	width:100%;
+	min-height:600px;
+	background-color:#fff;
+}
+#prof1{
+	width: 30%;
+	float: left;
+	clear: left;
+	margin-left: 2%;
+	margin-right: 2%;
+	size: 350px;
+	
+}
+
+#prof2{
+	background:#aaa;
+	width: 60%;
+	float: left;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+#prof1 img{
+	width:80%;
+	height: 250px;
+	margin: 10%;
+	margin-top: 0px;
+}
+#chatbox{
+	clear: left;
+	position: fixed;
+	margin-left: 5px;
+	width:38%;
+	padding: 10px;
+	
+	display: none;
+	float: left;
+}
+
+#Xx{
+	width:20px;
+	float: right;
+}
+#details{
+	width:80%;
+	margin-left: 10%;
+}
+#video{
+	position: fixed;
+	margin-left: 20%;
+	margin-top: 10%;
+	height: 80%;
+	clear: left;
+	width: 60%;
+	background-color: black;
+	padding: 25px;
+	display: block;
+	padding-top: 0px;
+	z-index: 1000;
+}
+#video iframe{
+	width:100%;
+	height:100%;
+	clear: left;
+}
+#video button{
+	margin-left:100%;
+
+}
+#videos{
+	width:100%;
+	background-color: black;
+	float: left;
+	height:100%;
+}
+#videos iframe{
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 5%;
+	clear: left;height:80%;
+	float: left;
+}
+.connect{
+	width: 100%;
+	clear: left;
+}
+.connect button{
+	margin-left: 30%;
+}
+.left{
+	width: 40%;
+	clear: left;
+	float: left;
+	
+}
+.right{
+	width: 60%;
+	float: left;
+	clear: right;
+}
+/*.input-group{
+	width:90%;
+}*/
+a{
+	color:black;
+}

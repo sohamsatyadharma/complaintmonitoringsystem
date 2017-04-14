@@ -1,0 +1,124 @@
+#stations {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#stations td, #stations th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#stations tr:nth-child(even){background-color: cyan;}
+
+#stations tr:hover {background-color: #ddd;}
+
+#stations th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #f2f2f2;
+    color: black;
+}
+
+h2 {
+	text-align: center;
+}
+		
+#header {
+	background-color: gray;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	font-family: algerian;
+	font-size: 30px;
+	width: 100%;
+}
+		
+		
+#map{
+	border: 2px solid black;
+	padding-top: 20px;
+	width:40%;
+	float: left;
+	clear: left;
+	text-align: center;
+	margin:3%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+#station_details{
+	
+	padding-top: 20px;
+	width:40%;
+	float: left;
+	
+	margin:3%;
+}
+#map img{
+	width:80%;
+	margin-left: 10%;
+}
+#map a{
+	text-decoration: none;
+	color: blue;
+	size:30px;
+}
+#details{
+	clear: left;
+	text-align: center;
+}
+.strap{
+width: 90%;
+background-color: black;
+color: white;
+padding: 10px; 
+font-size:30px;
+margin: 2px;
+display: block;
+float: left;
+}
+
+.rating{
+width: 90%;
+background-color: #f7f6ef;
+color: black;
+padding: 10px; 
+font-size:30px;
+margin: 2px;
+display: block;
+float: left;
+text-align: center;
+}
+
+#registered{
+	float: right;
+	margin-left: 5px;
+	border-left: 2px dotted white; 
+	padding-left: 2px;
+}
+
+#pending{
+	float: right;
+	margin-left: 5px;
+	border-left: 2px dotted white; 
+	padding-left: 2px;
+}
+
+#rate{
+	display: inline-block;
+}
+
+#rate img{
+	width: 50px;
+	height: 50px;
+	background: url("images/star2.png") no-repeat;
+	
+}
+#rate img:nth-child(-n+3){
+	
+}
+#rate p{
+	display: none;
+}
